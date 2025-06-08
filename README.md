@@ -1,3 +1,36 @@
+# Desktop Snake (C/WinAPI)
+
+**Note: This game only works on `Windows 10`.** Microsoft modified the desktop API in `Windows 11`.
+
+Features:
+- Uses existing desktop icons for gameplay
+- Automatically detects desktop icon grid size
+- Disables and re-enables "Align icons to Grid" for smooth animation
+- Prevents 180-degree turns
+
+Controls:
+- W / Up Arrow:    Move Up
+- S / Down Arrow:  Move Down
+- A / Left Arrow:  Move Left
+- D / Right Arrow: Move Right
+- ESC:             Exit Game
+
+How to compile (using the provided Makefile):
+```
+make
+```
+
+## Inspiration
+
+[Can Snake be implemented in C within 100 lines? - Answer by 仗键天涯 on Zhihu](
+https://www.zhihu.com/question/360814879/answer/3617660687)
+
+For aesthetic and readability purposes, the code is not intentionally compressed. If you can optimize the code to reduce the number of lines, PRs are welcome and greatly appreciated.
+
+---
+
+中文介绍
+
 # 桌面贪吃蛇 (C/WinAPI)
 
 **注意，该游戏只对 `Windows 10` 有效。** 因为微软在 `Windows 11` 修改了桌面API。
@@ -5,7 +38,7 @@
 特色:
 - 使用现有的桌面图标实现有效。
 - 自动检测桌面图标网格大小。
-- 禁用和重新启用“Snap to Grid”以实现平滑动画。
+- 禁用和重新启用"对齐到网格"以实现平滑动画。
 - 防止180度转弯。
 
 控制:
